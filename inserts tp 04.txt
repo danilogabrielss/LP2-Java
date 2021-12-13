@@ -1,0 +1,14 @@
+INSERT INTO tbcargos(cd_cargo, ds_cargo) VALUES (1,'Administrativo')
+INSERT INTO tbcargos(cd_cargo, ds_cargo) VALUES (2, 'Gerencia')
+INSERT INTO tbcargos(cd_cargo, ds_cargo) VALUES (3, 'TI')
+INSERT INTO tbcargos(cd_cargo, ds_cargo) VALUES (4, 'RH')
+INSERT INTO tbcargos(cd_cargo, ds_cargo) VALUES (5, 'DP')
+INSERT INTO tbfuncs (cod_func,nome_func , sal_func, cod_cargo) VALUES (0,'Danilo', 2000, 1);
+
+INSERT INTO tbfuncs (cod_func,nome_func , sal_func, cod_cargo) VALUES (1,'Gabriel', 4000, 2);
+
+INSERT INTO tbfuncs (cod_func,nome_func , sal_func, cod_cargo) VALUES (2,'Jairo', 3000, 3);
+
+INSERT INTO tbfuncs (cod_func,nome_func , sal_func, cod_cargo) VALUES (3,'Rodrigo', 100, 4);
+
+INSERT INTO tbfuncs (cod_func,nome_func , sal_func, cod_cargo) VALUES (4,'Paulo', 20000, 5);
